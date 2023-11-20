@@ -1,0 +1,38 @@
+.side-img {
+  cursor: pointer;
+  margin-left: 3rem;
+}
+.side-img:hover {
+  border-color: blue !important;
+}
+.btn-orange {
+  background-color: rgb(251, 196, 33);
+  color: white;
+  padding-block: 0.8rem;
+}
+.btn-tomato {
+  background-color: rgb(241, 109, 8);
+  color: white;
+  padding-block: 0.8rem;
+}
+
+.pdt-add,
+.pdt-minus {
+  cursor: pointer;
+  opacity: 0.3;
+}
+.pdt-add:hover,
+.pdt-minus:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 760px) {
+  .side-img {
+    margin-left: 0.5rem;
+  }
+  .btn-orange,
+  .btn-tomato {
+    padding-block: 0.5rem;
+    font-weight: normal;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,45 @@
+.main {
+  border-radius: 0.1rem;
+  height: 420px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3.6rem;
+}
+
+/* products */
+.radius {
+  border-radius: 0.5rem;
+}
+.card {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(5px);
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.card a:hover {
+  text-decoration: underline rgb(92, 88, 96);
+}
+
+.slideUp {
+  animation-name: slideUp;
+  animation-name: slideUp;
+  animation-duration: 1s;
+
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

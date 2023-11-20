@@ -1,0 +1,26 @@
+.about-bg{
+   
+    background: url(../images/banner-about-sec-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    width: 100%;
+    height: 765px;
+    max-width: 100%;
+     max-height: 100%;
+    
+}
+
+@media screen and (max-width:768px) {
+    .about-bg{
+       height: 400px;
+    }
+    .borderd-media{
+        border: none !important;
+        width: 100% !important;
+    }
+    .borderd-media p{
+        width: 100% !important;
+    }
+    
+}

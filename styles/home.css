@@ -1,0 +1,89 @@
+/* main sec */
+.main {
+  display: flex;
+  flex-direction: column;
+  background: url(../images/bg-main.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 0.1rem;
+  height: 620px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3.6rem;
+}
+
+.shope-now-hover,
+.arrow {
+  transition: all 1s ease-in-out;
+}
+.shope-now-hover:hover {
+  color: blue;
+  translate: 20px;
+  .arrow {
+    border-color: blue !important;
+  }
+}
+/* products */
+.radius {
+  border-radius: 0.5rem;
+}
+.card {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(5px);
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.card a:hover {
+  text-decoration: underline rgb(92, 88, 96);
+}
+
+.slideUp {
+  animation-name: slideUp;
+  animation-name: slideUp;
+  animation-duration: 1s;
+
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+/* media queries */
+@media screen and (max-width: 868px) {
+  .main {
+    margin-left: 1rem;
+    padding: 0;
+    height: 350px;
+  }
+  .main h1 {
+    margin-top: 3rem;
+    font-size: 20px;
+  }
+
+  .main div a > span {
+    text-decoration: underline;
+    margin-top: 0;
+  }
+  .main div > p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 416px) {
+  .main {
+    margin-left: 1rem;
+    padding: 0;
+    height: 250px;
+  }
+}

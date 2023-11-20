@@ -1,0 +1,21 @@
+.cart-number{
+    width: 45px;
+    border:1px solid rgba(128, 128, 128, 0.304);
+    padding-left:8px ;
+    pointer-events: none;
+    margin-right: 5.5rem;
+}
+.cart-add,.cart-minus{
+    cursor: pointer;
+    opacity: .3;
+    visibility: hidden;
+    
+}
+
+.cart-add:hover,.cart-minus:hover{
+ opacity: 1;
+}
+.pointer{
+    cursor: pointer;
+
+}
