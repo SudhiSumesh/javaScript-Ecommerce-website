@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>about us</title>
+    <title>contactUs</title>
     <!-- fontlinks -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,11 +29,11 @@
       crossorigin="anonymous"
     />
     <!-- css -->
-    <link rel="stylesheet" href="../styles/aboutus.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/home.css" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/contactus.css"></link>
   </head>
-  <body class="bg-light">
+  <body >
     <!-- navbar -->
     <div>
     <div class="container-fluid  border-bottom  position-fixed z-index" id="navbar">
@@ -60,7 +60,7 @@
             </li>
             <li class="px-lg-3">
               <a href=""  class="nav-link text-black">
-                <img src="../icons/darkmode-icon.png" alt="" />
+                <img src="./icons/darkmode-icon.png" alt="" />
               </a>
             </li>
             <li class="px-lg-3">
@@ -86,8 +86,8 @@
             class="d-none align-items-center list-unstyled position-absolute end-0 top-0 color py-3 px-5 w-100"
             id="nav_menu"
           >
-            <div class=" text-end py-2 " id="nav_close">
-              <i class="fa-solid fa-xmark fa-2xl "></i>
+            <div class="text-end py-2" id="nav_close">
+              <i class="fa-solid fa-xmark fa-2xl"></i>
             </div>
             <div class="position-absolute py-3 top-0">
               <a class="fs-2 text-black text-decoration-none fw-bold"
@@ -101,7 +101,7 @@
               <a href="./products.html" class="nav-link text-black">Shop </a>
             </li>
             <li class="">
-              <a href="./products.html" class="nav-link text-black">Sales </a>
+              <a href="./checkout.html" class="nav-link text-black">Sales </a>
             </li>
             <li class="">
               <a href="./aboutUS.html" class="nav-link text-black">About Us</a>
@@ -112,7 +112,7 @@
             <div class="d-flex align-items-center">
               <li class="">
                 <a href="" class="nav-link text-black"
-                  ><img src="../icons/darkmode-icon.png" alt="" />
+                  ><img src="./icons/darkmode-icon.png" alt="" />
                 </a>
               </li>
               <li class="">
@@ -131,76 +131,92 @@
       </div>
     </div>
     <!-- navbar-ended -->
-    <!-- about sec -->
-    <div class="container-fluid about-bg d-flex align-items-center mb-4">
-  <div class="container ">
-      <div class=" border-bottom w-25 border-3  border-dark  d-none d-md-block">
-        <div class="display-3 fw-bold">
-            About 
-        </div>
-        <div class="display-1 fw-bold">
-             salalah.
-        </div>
+  <!-- contactUs main sec -->
+  <div class="container p-5">
+    <div class="d-flex flex-column align-items-center p-5">
+      <h1 class="display-1 text-black fw-bold py-5">
+        Contact Us
+      </h1>
+      <div class="text-center">
+        <img src="./images/contact.us.jpg" alt="" class="contact-img">
+      </div>
     </div>
-    <p class="w-50  pt-md-5"><span class="fw-bold">salalah 
-    </span>is a e-commerce company that sells great products based
-     on a design-driven value, with smart devices and intelligent services as its core.</p>
-  </div> 
+
+    <div class="p-5">
+       <div class="h3 fw-bold text-decoration-underline text-center">Connect with Us</div>
+       <p class="pt-3 text-center lead fw-bold">Fill out the form bellow and we will contact you as soon as possible !</p>
+       <form action="" class="">
+         <div class="row">
+          <div class="col-md-6">
+            <div class="py-5 px-5">
+              <input type="text" placeholder="Your Name" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
+            </div>
+            <div class="py-5 px-5 ">
+              <select placeholder="Your Email" class="border-0  border-bottom border-2 border-dark form-select  rounded-0 px-0">
+                <option value="">Choose Topic</option>
+                <option value="">About shopping</option>
+                <option value="">About Services</option>
+                <option value="">About pricing</option>
+              </select>
+            </div>
+          
+          </div>
+          <div class="col-md-6">
+            <div class="py-5 px-5">
+              <input type="email" placeholder="Your Email" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
+            </div>
+            <div class="py-5 px-5">
+              <input type="email" placeholder="Message" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
+            </div>
+            <div class="px-5 py-3 d-flex justify-content-end">
+              <a href="" class="btn btn-dark bg-black py-2 px-5 rounded-pill ">Send</a>
+            </div>
+          </div>
+         </div>
+       </form>
     </div>
-    <div class="container bg-white shadow-sm rounded-3  p-5">
-               <div class="d-md-flex  justify-content-between">
-                <div class="p-3  border-end border-3 w-75 borderd-media">
-                    <h1 class="">Mission</h1>
-                    <p class="w-75 lead">Sells great products for users
-                        Create a joyful and progressive environment for employees
-                        Create win-win platforms for partners based on mutual trust
-                    Render steady long term returns on investment for shareholders</p>
-                </div>
-                <div class="p-3 px-md-5 ">
-                   <div class="pb-2">
-                    <h1>Vision</h1>
-                    <p class="lead">Develop into a healthier, more sustainable world-class corporation</p>
-                   </div>
-                   <div class="">
-                    <h1>Core value</h1>
-                    <p class="lead">Trusted,Benfen, user-orientation, continuous learning and team spirit</p>
-                   </div>
-                </div>
-               </div>
-    </div>
-  <!-- social-media posts -->
-<div class="container-fluid bg-light p-4">
-    <div class="container ">
-        <div class="py-5">
-            <div class="h1 fw-bold"> Trending On instagram.</div>
+  </div>
+      <!-- featured products -->
+      <div class="container">
+        <h1 class="py-5 text-center">Featured Products</h1>
+        <div class="row "  >
+          <div class="col-lg-4">
+            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
+            <a class="p-3">
+              <img src="./images/Motorola razr 40 Ultra.jpg" alt="" width="200px">
+            </a>
+             <a class="fw-bold">Redmi Note 12 5G</a> 
+             <div class="lead text-muted ">16GB+256GB(Infinite Black) </div>  
+             <a href="" class="btn btn-warning my-md-4">Notify Me</a>
+ 
+               
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
+              <a class="p-3">
+                <img src="./images/OPPO F23 5G(1).jpg" alt="" width="200px">
+              </a>
+               <a class="fw-bold">IKALL Z19 Pro</a> 
+               <div class="lead text-muted ">4GB+128GB(Bold Gold) </div>  
+               <a href="" class="btn btn-warning my-md-4">Notify Me</a>
+
+                  
+              </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
+              <a class="p-3">
+                <img src="./images/featured-1.png" alt="" width="200px">
+              </a>
+               <a class="fw-bold">Vivo V20 Pro</a> 
+               <div class="lead text-muted ">4GB+128GB(Bold Gold) </div>  
+               <a href="" class="btn btn-warning my-md-4">Notify Me</a>
+                  
+              </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-3 p-2">
-               <div class="border rounded-2">
-                <img src="../images/social.1.png" alt="" width="100%" height="300px">
-               </div>
-            </div>
-            <div class="col-lg-3 p-2">
-                <div class="border rounded-2">
-                    <img src="../images/social-5.webp" alt="" width="100%" height="300px">
-                </div>
-             
-            </div>
-            <div class="col-lg-3 p-2">
-                <div class="border rounded-2">
-                    <img src="../images/social-3.jpg" alt="" width="100%" height="300px">
-                </div>
-    
-            </div>
-            <div class="col-lg-3 p-2">
-                <div class="border rounded-2">
-                    <img src="../images/social-2-l.avif" alt="" width="100%" height="300px">
-                </div>
-    
-            </div>
-        </div>
-     </div>
-</div>
+      </div>
    <!-- costomer reviews -->
    <div class="container py-md-5">
      <div class="h3 fw-bold py-4">Happy Customer Reviews.</div>
@@ -211,8 +227,7 @@
 
               </div>
               <div  class="py-3">Awesome Services.
-                I  purchased a smartphone from this ecommerce
-                 platform and I am extremely satisfied with my purchase. 
+                I  purchased a smartphone from this ecommerce platform and I am extremely satisfied with my purchase. 
               </div>
                <div class="pb-1">10/24/2023</div>
             </div>
@@ -222,8 +237,8 @@
             <div class="fs-5 fw-bold text-warning">Peter R.
 
             </div>
-            <div class="py-3">I had a great experience purchasing a smartphone from
-               this ecommerce platform. The website was user-friendly and the selection of phones was impressive</div>
+            <div class="py-3">I had a great experience purchasing a smartphone from 
+              this ecommerce platform. The website was user-friendly and the selection of phones was impressive</div>
              <div class="pb-1">9/14/2023</div>
           </div>
        </div>
@@ -232,8 +247,8 @@
           <div class="fs-5 fw-bold text-warning">George G.
 
           </div>
-          <div class="py-3">I am extremely satisfied with my purchase.
-             The website was easy to navigate and the checkout process was quick and simple</div>
+          <div class="py-3">I am extremely satisfied with my purchase. The website was easy to
+             navigate and the checkout process was quick and simple</div>
            <div >8/04/2023</div>
         </div>
      </div>
@@ -243,9 +258,8 @@
        <div class="p-5">
         <h1 class="p-5 fw-bold">Join Our Newsletter</h1>
         <form action="" class="px-5 ">
-          <div class="d-flex ">
-            <input type="email" placeholder="Y O U R  E M A I L" 
-            class="border-0 px-1 py-2 w-50  bg-transparent border-bottom border-3 ">
+          <div class="d-flex">
+            <input type="email" placeholder="Y O U R  E M A I L " class="border-0 px-1 py-2 w-50  bg-transparent border-bottom border-3">
             <button class="btn btn-dark rounded-pill bg-black ms-5   ">Subscribe</button>
           </div>
           <div class="p-2">
@@ -257,6 +271,7 @@
         </form>
        </div>
    </div>
+
     <!-- footer -->
     <div
       class="container-fluid bg-black p-5 border-bottom border-secondary border-3"
@@ -266,8 +281,8 @@
           <div class="p-5">
             <h5 class="pb-3">About Shop</h5>
             <p class=" pb-2 small">
-              An ecommerce platform that sells smartphones is a 
-              digital marketplace where customers can browse and purchase mobile devices from the comfort of their own homes
+              An ecommerce platform that sells smartphones is a digital marketplace where
+               customers can browse and purchase mobile devices from the comfort of their own homes
             </p>
             <div class="pb-3 small">E.Hello@Uxper.Co</div>
             <div class="pb-3 small">T.(00)342 489 33</div>
@@ -346,6 +361,6 @@
         </select>
       </div>
     </footer>
-    <script src="../scripts/home.js"></script>
+    <script src="./scripts/home.js"></script>
   </body>
 </html>

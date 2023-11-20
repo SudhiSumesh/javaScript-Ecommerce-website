@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contactUs</title>
+    <title>Cart</title>
     <!-- fontlinks -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,9 +29,9 @@
       crossorigin="anonymous"
     />
     <!-- css -->
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/home.css" />
-    <link rel="stylesheet" href="../styles/contactus.css"></link>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/cart.css">
   </head>
   <body >
     <!-- navbar -->
@@ -44,7 +44,7 @@
           </div>
           <ul class="d-none d-lg-flex align-items-center list-unstyled">
             <li class="px-lg-3">
-              <a href="./index.html" class="nav-link text-black">Home </a>
+              <a href="./home.html" class="nav-link text-black">Home </a>
             </li>
             <li class="px-lg-3">
               <a href="./products.html" class="nav-link text-black">Shop </a>
@@ -70,7 +70,7 @@
             </li>
             <li class="px-lg-3">
               <a href="./cart.html" class="nav-link text-black">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping fa-xl text-center "></i>
               </a>
             </li>
           </ul>
@@ -95,7 +95,7 @@
               >
             </div>
             <li class="mt-3">
-              <a href="./home.html" class="nav-link text-black">Home </a>
+              <a href="./index.html" class="nav-link text-black">Home </a>
             </li>
             <li class="">
               <a href="./products.html" class="nav-link text-black">Shop </a>
@@ -112,7 +112,7 @@
             <div class="d-flex align-items-center">
               <li class="">
                 <a href="" class="nav-link text-black"
-                  ><img src="../icons/darkmode-icon.png" alt="" />
+                  ><img src="./icons/darkmode-icon.png" alt="" />
                 </a>
               </li>
               <li class="">
@@ -131,145 +131,65 @@
       </div>
     </div>
     <!-- navbar-ended -->
-  <!-- contactUs main sec -->
-  <div class="container p-5">
-    <div class="d-flex flex-column align-items-center p-5">
-      <h1 class="display-1 text-black fw-bold py-5">
-        Contact Us
-      </h1>
-      <div class="text-center">
-        <img src="../images/contact.us.jpg" alt="" class="contact-img">
-      </div>
-    </div>
+       <!-- cart-section -->
+     <div class="container-fluid bg-light py-5 ">
+            <div class="px-5 pt-5 ms-5 pb-2"><span class="fw-bold">Home</span> > Cart</div>
+      <div class="container " id="cart_container">
 
-    <div class="p-5">
-       <div class="h3 fw-bold text-decoration-underline text-center">Connect with Us</div>
-       <p class="pt-3 text-center lead fw-bold">Fill out the form bellow and we will contact you as soon as possible !</p>
-       <form action="" class="">
-         <div class="row">
-          <div class="col-md-6">
-            <div class="py-5 px-5">
-              <input type="text" placeholder="Your Name" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
-            </div>
-            <div class="py-5 px-5 ">
-              <select placeholder="Your Email" class="border-0  border-bottom border-2 border-dark form-select  rounded-0 px-0">
-                <option value="">Choose Topic</option>
-                <option value="">About shopping</option>
-                <option value="">About Services</option>
-                <option value="">About pricing</option>
-              </select>
-            </div>
-          
+         
+       </div>
+       <div class="container">
+
+        <div class="d-flex justify-content-end">
+
+          <button class=" delete btn text-red"> Remove items</button>
           </div>
-          <div class="col-md-6">
-            <div class="py-5 px-5">
-              <input type="email" placeholder="Your Email" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
-            </div>
-            <div class="py-5 px-5">
-              <input type="email" placeholder="Message" class="border-0 border-bottom border-2 border-dark form-control rounded-0 px-0">
-            </div>
-            <div class="px-5 py-3 d-flex justify-content-end">
-              <a href="" class="btn btn-dark bg-black py-2 px-5 rounded-pill ">Send</a>
-            </div>
-          </div>
-         </div>
-       </form>
-    </div>
+      <!-- 2nd  -->
+<div class="px-5  bg-white pb-3 mt-5">
+  <div class="d-flex align-items-center gap-5 justify-content-end p-5 ">
+     <a href="./products.html " class="text-black text-decoration-none fs-5 fw-bold">View more</a>
+     <div class="d-flex flex-column gap-3">
+       <!-- <div class="fs-5 normal-font"> items selected
+        <span class="text-red fw-bold">₹6778.00</span>
+        </div> -->
+        <a href="./checkout.html" class="btn btn-danger bg-red rounded-pill fw-bold btn-lg">Check out</a>
+     </div>
   </div>
-      <!-- featured products -->
-      <div class="container">
-        <h1 class="py-5 text-center">Featured Products</h1>
-        <div class="row "  >
-          <div class="col-lg-4">
-            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
-            <a class="p-3">
-              <img src="../images/Motorola razr 40 Ultra.jpg" alt="" width="200px">
-            </a>
-             <a class="fw-bold">Redmi Note 12 5G</a> 
-             <div class="lead text-muted ">16GB+256GB(Infinite Black) </div>  
-             <a href="" class="btn btn-warning my-md-4">Notify Me</a>
- 
-               
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
-              <a class="p-3">
-                <img src="../images/OPPO F23 5G(1).jpg" alt="" width="200px">
-              </a>
-               <a class="fw-bold">IKALL Z19 Pro</a> 
-               <div class="lead text-muted ">4GB+128GB(Bold Gold) </div>  
-               <a href="" class="btn btn-warning my-md-4">Notify Me</a>
-
-                  
-              </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card p-2 align-items-center border-0 radius shadow-sm bg-white normal-font mb-4 ">
-              <a class="p-3">
-                <img src="../images/featured-1.png" alt="" width="200px">
-              </a>
-               <a class="fw-bold">Vivo V20 Pro</a> 
-               <div class="lead text-muted ">4GB+128GB(Bold Gold) </div>  
-               <a href="" class="btn btn-warning my-md-4">Notify Me</a>
-                  
-              </div>
-          </div>
-        </div>
+  
+  </div>
+       </div>
+     </div>
+              
+         <!-- why-shop-with-us-sec -->
+    <div class="container p-md-5 mt-md-2  ">
+      <div class="row  justify-content-between  mt-md-5  pb-3 border-bottom">
+      <div class="col-md-3">
+        <div class=" d-flex  flex-column align-items-center  ">
+          <img src="./icons/rupee (1).png" alt="" class="">
+          <p class="text-muted pt-3">15 Days Price Guatantee</p>
+       </div>
       </div>
-   <!-- costomer reviews -->
-   <div class="container py-md-5">
-     <div class="h3 fw-bold py-4">Happy Customer Reviews.</div>
-     <div class="row">
-         <div class="col-12 col-md-4 ">
-            <div>
-              <div class="fs-5 fw-bold text-warning">Carol G.
-
-              </div>
-              <div  class="py-3">Awesome Services.
-                I  purchased a smartphone from this ecommerce platform and I am extremely satisfied with my purchase. 
-              </div>
-               <div class="pb-1">10/24/2023</div>
-            </div>
-         </div>
-         <div class="col-12  col-md-4">
-          <div>
-            <div class="fs-5 fw-bold text-warning">Peter R.
-
-            </div>
-            <div class="py-3">I had a great experience purchasing a smartphone from this ecommerce platform. The website was user-friendly and the selection of phones was impressive</div>
-             <div class="pb-1">9/14/2023</div>
-          </div>
+       <div class="col-md-3">
+        <div class=" d-flex flex-column align-items-center ">
+          <img src="./icons/price-tag.png" alt="" class="">
+          <p class="text-muted pt-3">No  Cost  EMI</p>
        </div>
-       <div class="col-12  col-md-4">
-        <div>
-          <div class="fs-5 fw-bold text-warning">George G.
-
-          </div>
-          <div class="py-3">I am extremely satisfied with my purchase. The website was easy to navigate and the checkout process was quick and simple</div>
-           <div >8/04/2023</div>
-        </div>
+       </div>
+     <div class="col-md-3">
+      <div class=" d-flex flex-column align-items-center ">
+        <img src="./icons/healthcare.png" alt="" class="">
+        <p class="text-muted pt-3 text-center">Free Shipping on orders <br> above Rs.500 </p>
      </div>
      </div>
-   </div>
-   <div class="container-fluid bg-light mb-4">
-       <div class="p-5">
-        <h1 class="p-5 fw-bold">Join Our Newsletter</h1>
-        <form action="" class="px-5 ">
-          <div class="d-flex">
-            <input type="email" placeholder="Y O U R  E M A I L " class="border-0 px-1 py-2 w-50  bg-transparent border-bottom border-3">
-            <button class="btn btn-dark rounded-pill bg-black ms-5   ">Subscribe</button>
-          </div>
-          <div class="p-2">
-          <a href="" class="text-dark"><i class=" me-2  fa-brands fa-twitter"></i></a>
-          <a href="" class="text-dark"><i class=" me-2  fa-brands fa-instagram"></i></a>
-          <a href="" class="text-dark"><i class=" me-2  fa-brands fa-linkedin"></i></a>
-          <a href="" class="text-dark"><i class="fa-brands fa-facebook"></i></a>
-          </div>
-        </form>
-       </div>
-   </div>
 
+  <div class="col-md-3">
+    <div class=" d-flex flex-column align-items-center ">
+      <img src="./icons/24-hours-support.png" alt="" class="">
+      <p class="text-muted pt-3 ">24*7 Service Support</p>
+      </div>
+  </div>
+      </div>
+    </div>
     <!-- footer -->
     <div
       class="container-fluid bg-black p-5 border-bottom border-secondary border-3"
@@ -279,7 +199,9 @@
           <div class="p-5">
             <h5 class="pb-3">About Shop</h5>
             <p class=" pb-2 small">
-              An ecommerce platform that sells smartphones is a digital marketplace where customers can browse and purchase mobile devices from the comfort of their own homes
+              An ecommerce platform that sells smartphones is 
+              a digital marketplace where customers can browse
+               and purchase mobile devices from the comfort of their own homes
             </p>
             <div class="pb-3 small">E.Hello@Uxper.Co</div>
             <div class="pb-3 small">T.(00)342 489 33</div>
@@ -358,6 +280,7 @@
         </select>
       </div>
     </footer>
-    <script src="../scripts/home.js"></script>
+    <script src="./scripts/home.js"></script>
+    <script src="./scripts/cart.js"></script>
   </body>
 </html>
